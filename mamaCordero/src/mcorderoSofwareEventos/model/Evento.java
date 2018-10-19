@@ -3,7 +3,7 @@ package mcorderoSofwareEventos.model;
 public class Evento {
     private int id;
     private int  fecha;
-    private int lugar_id_fk;
+    private String lugar;
     private int cliente_id_fk ;
     private int servicio_id_fk;
 
