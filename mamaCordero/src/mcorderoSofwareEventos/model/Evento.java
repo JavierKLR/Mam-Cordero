@@ -23,13 +23,15 @@ public class Evento {
         this.fecha = fecha;
     }
 
-    public int getLugar_id_fk() {
-        return lugar_id_fk;
+    public String getLugar() {
+        return lugar;
     }
 
-    public void setLugar_id_fk(int lugar_id_fk) {
-        this.lugar_id_fk = lugar_id_fk;
+    public void setLugar(String lugar) {
+        this.lugar = lugar;
     }
+
+  
 
     public int getCliente_id_fk() {
         return cliente_id_fk;
