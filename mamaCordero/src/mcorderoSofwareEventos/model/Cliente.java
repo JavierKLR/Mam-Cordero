@@ -10,5 +10,5 @@ package mcorderoSofwareEventos.model;
  * @author Flavio
  */
 public class Cliente {
-    
+
 }
