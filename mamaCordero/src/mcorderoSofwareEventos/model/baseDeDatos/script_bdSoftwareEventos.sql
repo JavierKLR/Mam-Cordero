@@ -38,11 +38,11 @@ CREATE TABLE cliente(
 
 CREATE TABLE evento (
     id INT AUTO_INCREMENT,
-    fecha DATE,
-    lugar_id_fk int,
-    cliente_id_fk int,
-    servicio id_fk int,
-    num_asistentes int,
+    fecha INT,
+    lugar_id_fk INT,
+    cliente_id_fk INT,
+    servicio id_fk INT,
+    num_asistentes INT,
     PRIMARY KEY (id),
     FOREING KEY (lugar_id_fk) REFERENCES lugar(id),
     FOREING KEY (cliente_id_fk) REFERENCES cliente(id),
