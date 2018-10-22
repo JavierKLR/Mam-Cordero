@@ -36,7 +36,7 @@ INSERT INTO tipo_servicio VALUES(NULL,'Paseo',10000);
 
 CREATE TABLE cliente(
     id INT AUTO_INCREMENT,
-    nombre VARCHAR(30),
+    nombre VARCHAR(100),
     rut VARCHAR(13),
     direccion VARCHAR (100),
     /*telefono como varchar para evitar errores, se valida en el ingreso al sistema*/
