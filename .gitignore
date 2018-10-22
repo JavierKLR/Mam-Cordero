@@ -1,6 +1,11 @@
 /mamaCordero/nbproject/private/
+<<<<<<< HEAD
 /ejemplos/nbproject/private/
 /ejemplos/build/
 /AppMatricesPropio/nbproject/private/
 /AppMatricesPropio/build/
 /AppMatricesPropio/dist/
+=======
+/mamaCordero/build/
+/mamaCordero/dist/
+>>>>>>> b36ff9f5afbae371651598b13b0fa83e2f08d25c

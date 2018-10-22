@@ -14,6 +14,10 @@ CREATE TABLE lugar(
 /*aca inserte INSERT con los datos correspondientes*/
 
 
+
+
+
+
 CREATE TABLE tipo_servicio(
     id INT AUTO_INCREMENT,
     tipo_servicio VARCHAR (30),
@@ -22,6 +26,9 @@ CREATE TABLE tipo_servicio(
 );
 
 /*aca inserte INSERT con los datos correspondientes*/
+
+
+
 
 CREATE TABLE cliente(
     id INT AUTO_INCREMENT,
