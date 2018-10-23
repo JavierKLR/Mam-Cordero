@@ -11,8 +11,8 @@ CREATE TABLE lugar(
     PRIMARY KEY (id)
 );
 /*aca inserte INSERT con los datos correspondientes*/
-INSERT INTO lugar VALUES(NULL,Casa de campo,avenida la compañia,1000, 100000);
-INSERT INTO lugar VALUES(NULL,Casa de palo,NULL,1000, 100000);
+INSERT INTO lugar VALUES(NULL,'Casa de campo','avenida la compañia','1000', '100000');
+INSERT INTO lugar VALUES(NULL,'Casa de palo',NULL,1000, 100000);
 
 
 
