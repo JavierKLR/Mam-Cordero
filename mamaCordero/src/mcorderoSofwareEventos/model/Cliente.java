@@ -46,5 +46,15 @@ public class Cliente {
     public void setTelefono(String telefono) {
         this.telefono = telefono;
     }
+
+    public Cliente(String nombre, String run, String direccion, String telefono) {
+        this.nombre = nombre;
+        this.run = run;
+        this.direccion = direccion;
+        this.telefono = telefono;
+    }
+
+    public Cliente() {
+    }
     
 }

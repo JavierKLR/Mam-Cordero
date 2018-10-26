@@ -46,5 +46,15 @@ public class Local {
     public void setCosto_arriendo(int costo_arriendo) {
         this.costo_arriendo = costo_arriendo;
     }
+
+    public Local(String nombre, String ubicacion, int capacidad, int costo_arriendo) {
+        this.nombre = nombre;
+        this.ubicacion = ubicacion;
+        this.capacidad = capacidad;
+        this.costo_arriendo = costo_arriendo;
+    }
+
+    public Local() {
+    }
     
 }
