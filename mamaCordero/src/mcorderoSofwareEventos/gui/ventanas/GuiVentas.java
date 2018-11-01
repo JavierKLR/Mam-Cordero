@@ -35,6 +35,7 @@ public class GuiVentas extends javax.swing.JFrame {
         jTextField3 = new javax.swing.JTextField();
         jTextField4 = new javax.swing.JTextField();
         fnprincipal = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -51,24 +52,24 @@ public class GuiVentas extends javax.swing.JFrame {
 
         jButtonMatrimonios.setForeground(new java.awt.Color(255, 153, 0));
         jButtonMatrimonios.setText("Matrimonios");
-        getContentPane().add(jButtonMatrimonios, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 140, 110, 50));
+        getContentPane().add(jButtonMatrimonios, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 200, 110, 20));
 
         jButtonCenas.setForeground(new java.awt.Color(255, 153, 0));
         jButtonCenas.setText("Cenas");
-        getContentPane().add(jButtonCenas, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 140, 110, 50));
+        getContentPane().add(jButtonCenas, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 200, 110, 20));
 
         jButtonblablabla.setFont(new java.awt.Font("Tahoma", 0, 10)); // NOI18N
         jButtonblablabla.setForeground(new java.awt.Color(255, 153, 0));
         jButtonblablabla.setText("Bla BLa BLa");
-        getContentPane().add(jButtonblablabla, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 300, 110, 50));
+        getContentPane().add(jButtonblablabla, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 420, 110, 20));
 
         jButtonGalas.setForeground(new java.awt.Color(255, 153, 0));
         jButtonGalas.setText("Galas");
-        getContentPane().add(jButtonGalas, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 220, 110, 50));
+        getContentPane().add(jButtonGalas, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 310, 110, 20));
 
         jButtonBautizos.setForeground(new java.awt.Color(255, 153, 0));
         jButtonBautizos.setText("Bautizos");
-        getContentPane().add(jButtonBautizos, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 220, 110, 50));
+        getContentPane().add(jButtonBautizos, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 310, 110, 20));
 
         jButtonCumpleaños.setForeground(new java.awt.Color(255, 153, 0));
         jButtonCumpleaños.setText("Cumpleaños");
@@ -77,10 +78,10 @@ public class GuiVentas extends javax.swing.JFrame {
                 jButtonCumpleañosActionPerformed(evt);
             }
         });
-        getContentPane().add(jButtonCumpleaños, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 300, 110, 50));
+        getContentPane().add(jButtonCumpleaños, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 420, 110, 20));
 
         fnsegundo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Sources/barrasa-emplatado-3.jpg"))); // NOI18N
-        getContentPane().add(fnsegundo, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 100, 410, 330));
+        getContentPane().add(fnsegundo, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 500, 370));
 
         barramom.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Sources/barra.png"))); // NOI18N
         getContentPane().add(barramom, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
@@ -104,13 +105,17 @@ public class GuiVentas extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Servicios:");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 160, -1, 20));
-        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 130, 140, -1));
-        getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 160, 140, -1));
-        getContentPane().add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(139, 190, 140, -1));
-        getContentPane().add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 220, 140, -1));
+        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 130, 30, -1));
+        getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 160, 30, -1));
+        getContentPane().add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(139, 190, 30, -1));
+        getContentPane().add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 220, 30, -1));
 
         fnprincipal.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Sources/C55.jpg"))); // NOI18N
         getContentPane().add(fnprincipal, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -10, 780, 480));
+
+        jLabel5.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel5.setText("jLabel5");
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 300, -1, 30));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -148,6 +153,7 @@ public class GuiVentas extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;
