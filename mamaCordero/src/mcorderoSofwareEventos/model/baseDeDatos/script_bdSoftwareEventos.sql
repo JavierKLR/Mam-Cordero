@@ -37,6 +37,8 @@ INSERT INTO tipo_servicio VALUES(NULL,'Paseo',10000);
 CREATE TABLE cliente(
     id INT AUTO_INCREMENT,
     nombre VARCHAR(100),
+    apellidoPat VARCHAR(50),
+    apellidoMat VARCHAR(50),
     rut VARCHAR(13),
     direccion VARCHAR (100),
     /*telefono como varchar para evitar errores, se valida en el ingreso al sistema*/
@@ -45,9 +47,9 @@ CREATE TABLE cliente(
 );
 
 /*aca inserte INSERT con los datos correspondientes*/
-INSERT INTO cliente VALUES(NULL,'Benjamin Lopez','13321321-7','santa cruz #1245','+56933140309');
-INSERT INTO cliente VALUES(NULL,'Ismael Quintana','20026293-k','santa cruz de triana #1085','+5693548509');
-INSERT INTO cliente VALUES(NULL,'Flavio Toro','13354189-5','santa cruz #1045','+56935875649');
+INSERT INTO cliente VALUES(NULL,'Benjamin','Lopez','Maturana','13321321-7','santa cruz #1245','+56933140309');
+INSERT INTO cliente VALUES(NULL,'Ismael','Quintana','Cordero','20026293-k','santa cruz de triana #1085','+5693548509');
+INSERT INTO cliente VALUES(NULL,'Flavio','Toro','Basso','13354189-5','santa cruz #1045','+56935875649');
 
 CREATE TABLE evento (
     id INT AUTO_INCREMENT,

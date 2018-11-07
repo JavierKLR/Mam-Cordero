@@ -1,8 +1,11 @@
 package mcorderoSofwareEventos.model;
 
 public class Cliente {
+
     private int id;
     private String nombre;
+    private String apellidoPaterno;
+    private String apellidoMaterno;
     private String run;
     private String direccion;
     private String telefono;
@@ -54,7 +57,23 @@ public class Cliente {
         this.telefono = telefono;
     }
 
+    public String getApellidoPaterno() {
+        return apellidoPaterno;
+    }
+
+    public void setApellidoPaterno(String apellidoPaterno) {
+        this.apellidoPaterno = apellidoPaterno;
+    }
+
+    public String getApellidoMaterno() {
+        return apellidoMaterno;
+    }
+
+    public void setApellidoMaterno(String apellidoMaterno) {
+        this.apellidoMaterno = apellidoMaterno;
+    }
+
     public Cliente() {
     }
-    
+
 }
