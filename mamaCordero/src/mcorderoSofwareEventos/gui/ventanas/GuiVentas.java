@@ -41,7 +41,7 @@ public class GuiVentas extends javax.swing.JFrame {
         getContentPane().add(jButtonChao, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 0, 90, 30));
 
         fnsegundo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Sources/barrasa-emplatado-3.jpg"))); // NOI18N
-        getContentPane().add(fnsegundo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -10, 770, 480));
+        getContentPane().add(fnsegundo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 770, 470));
 
         barramom.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Sources/barra.png"))); // NOI18N
         getContentPane().add(barramom, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
